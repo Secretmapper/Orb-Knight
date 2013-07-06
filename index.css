@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    user-select: none;
+    background-color: white;
+}
+
+canvas {
+     padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	-webkit-filter:opacity(1) ;
+}
+
+#jsapp {
+    position: relative;
+    width: 640px;
+	height: 640px;
+    margin: 0px auto;
+}
+
+#title {
+    position: relative;
+    width: 640px;
+    margin: 0px auto;
+}
+
+#innerScrew {
+    position: relative;
+    width: 640px;
+}
+
+#framecounter {
+    position: absolute;
+    right: 0;
+    color: gray;
+    font-size: 8pt;
+    font-family: "Courier New";
+    text-shadow: black 1px 1px;
+}
+
+
+#details {
+   position: relative;
+    right: 0;
+    color: black;
+    font-size: 12pt;
+    font-family: "Arial";
+}
